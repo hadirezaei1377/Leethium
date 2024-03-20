@@ -1,7 +1,8 @@
-Solve challenging Leetcode problems and their tips
+# Leethium
 
-This place is only for challenging issues
+Solve challenging Leetcode and quera problems and their tips.
 
-for each problem we have a question and helper sentence then we write test and after that the solution.
+I try to do this by test.
 
-for each problem we will have these files, problem.md, explanation.md, principal files and their test files.
+# example
+see TwoSum

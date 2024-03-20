@@ -1,7 +1,7 @@
 package twosum_test
 
 import (
-	twosum "Leethium/starter/TwoSum"
+	twosum "Leethium/TwoSum"
 	"testing"
 )
 
