@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var num int
-	fmt.Println("لطفاً یک عدد وارد کنید:")
+	fmt.Println("enter a number: ")
 	fmt.Scanln(&num)
 
 	var slices []int
@@ -21,8 +21,8 @@ func main() {
 	}
 
 	if sum == num {
-		fmt.Println("عدد کامل است")
+		fmt.Println("your number is kamel")
 	} else {
-		fmt.Println("عدد کامل نیست")
+		fmt.Println(" your number is not kamel")
 	}
 }
