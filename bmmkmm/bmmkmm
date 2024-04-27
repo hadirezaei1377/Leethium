@@ -1,0 +1,33 @@
+package bmmkmm
+
+import "fmt"
+
+// concepts of BMM (GCD) and KMM (LCM):
+
+// gcd calculates the Greatest Common Divisor (BMM)
+func gcd(a, b int) int {
+	for b != 0 {
+		a, b = b, a%b
+	}
+	return a
+}
+
+// lcm calculates the Least Common Multiple (KMM)
+func lcm(a, b int) int {
+	return a * b / gcd(a, b)
+}
+
+func main() {
+	var n, m int
+
+	fmt.Scan(&n, &m)
+
+	bmm := gcd(n, m)
+	kmm := lcm(n, m)
+
+	fmt.Println(bmm, kmm)
+}
+
+// - BMM (Greatest Common Divisor): The greatest common divisor of two numbers is the largest number that divides both of them without leaving a remainder.
+// - KMM (Least Common Multiple): The least common multiple of two numbers is the smallest number that is a multiple of both of them.
+// It can be obtained by multiplying the two numbers and dividing by their greatest common divisor.
