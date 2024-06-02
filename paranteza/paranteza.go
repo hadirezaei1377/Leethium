@@ -14,7 +14,7 @@ func main() {
 
 	for _, ch := range s {
 		if ch == '(' {
-			stack = append(stack, ch)
+			stack = append(stack, byte(ch))
 		} else if ch == ')' {
 			if len(stack) == 0 {
 				imbalance += 1
