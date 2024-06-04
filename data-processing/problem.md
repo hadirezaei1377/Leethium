@@ -1,0 +1,1 @@
+Write a program in Go that reads data from a specific table and processes the data based on a specific condition (eg filtering, sorting).
