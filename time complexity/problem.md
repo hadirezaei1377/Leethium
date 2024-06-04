@@ -1,0 +1,1 @@
+Write a program in Go that receives a list of integers. Then implement functions to add, remove, and search for elements in the list. For each function, analyze and express its time complexity.
