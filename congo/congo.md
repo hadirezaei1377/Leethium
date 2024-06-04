@@ -1,0 +1,1 @@
+Write a program that executes several simple computational tasks in parallel using goroutines.
