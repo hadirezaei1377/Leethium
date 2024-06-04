@@ -1,0 +1,1 @@
+Write a Go program that stores financial data including transaction date, amount, and description in MongoDB. The program should be able to add and retrieve transactions.
