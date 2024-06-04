@@ -1,0 +1,1 @@
+Write a program in Go that can read a specific number of rows and columns from a table in a PostgreSQL database and add new data to that table.
