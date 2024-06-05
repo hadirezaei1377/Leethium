@@ -9,6 +9,14 @@ require (
 )
 
 require (
+	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
+	github.com/google/go-querystring v1.0.0 // indirect
+	github.com/gorilla/schema v1.1.0 // indirect
+)
+
+require (
 	github.com/andybalholm/cascadia v1.3.2 // indirect
+	github.com/gorilla/mux v1.8.1
+	github.com/sfreiberg/gotwilio v1.0.0
 	golang.org/x/net v0.21.0 // indirect
 )
